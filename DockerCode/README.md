@@ -1,4 +1,4 @@
-docker build --name groatfamilygenealogy:1.0 .
+docker build -t groatfamilygenealogy:1.0 .
 docker run --name groatfamilygenealogycontainer -d -p 81:80 groatfamilygenealogy:1.0
 docker tag groatfamilygenealogy:1.0 drgroat/groat_family_genealogy_igmmake:1.0
 docker login
