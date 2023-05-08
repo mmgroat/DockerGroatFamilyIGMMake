@@ -43,7 +43,5 @@ RUN mkdir -p /home/site/wwwroot/Genealogy
 RUN mkdir -p /home/site/wwwroot/Genealogy/GroatFamily
 COPY ./Genealogy/* /home/site/wwwroot/Genealogy
 COPY ./Genealogy/GroatFamily/* /home/site/wwwroot/Genealogy/GroatFamily
-COPY ./index.pl /home/site/wwwroot/Genealogy/index.pl
-COPY ./Genealogy/igmget.cgi /home/site/wwwroot/Genealogy/igmget.pl
 RUN chown -R root:www-data /home
 RUN chmod -R 777 /home

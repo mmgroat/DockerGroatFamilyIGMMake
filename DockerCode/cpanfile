@@ -1,6 +1,5 @@
 requires 'CGI', '== 4.35';
 requires 'Math::BigInt', '== 1.80';
-requires 'Config', '== 2.65';
 requires 'Switch', '== 2.17';
 requires 'utf8', '== 1.22';
 requires 'Config', '== 5.032001';

@@ -1,3 +1,11 @@
+docker build --name groatfamilygenealogy:1.0 .
+docker run --name groatfamilygenealogycontainer -d -p 81:80 groatfamilygenealogy:1.0
+docker tag groatfamilygenealogy:1.0 drgroat/groat_family_genealogy_igmmake:1.0
+docker login
+docker push drgroat/groat_family_genealogy_igmmake:1.0
+
+
+
 Azure has recently announced [App Services on Linux](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-intro). It supports running web apps natively on Linux. You can quickly create an app following [Link](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-how-to-create-a-web-app) and setup continuous deployment to publish the app.
 
 
